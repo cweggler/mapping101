@@ -14,6 +14,7 @@
 		4626695F2213902600A9AFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4626695D2213902600A9AFD6 /* LaunchScreen.storyboard */; };
 		4626696A2213902700A9AFD6 /* Mapping101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462669692213902700A9AFD6 /* Mapping101Tests.swift */; };
 		462669752213902700A9AFD6 /* Mapping101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462669742213902700A9AFD6 /* Mapping101UITests.swift */; };
+		462669842213904100A9AFD6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462669832213904100A9AFD6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		462669702213902700A9AFD6 /* Mapping101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mapping101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462669742213902700A9AFD6 /* Mapping101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapping101UITests.swift; sourceTree = "<group>"; };
 		462669762213902700A9AFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462669832213904100A9AFD6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462669842213904100A9AFD6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				462669682213902700A9AFD6 /* Mapping101Tests */,
 				462669732213902700A9AFD6 /* Mapping101UITests */,
 				462669522213901900A9AFD6 /* Products */,
+				462669822213904000A9AFD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				462669762213902700A9AFD6 /* Info.plist */,
 			);
 			path = Mapping101UITests;
+			sourceTree = "<group>";
+		};
+		462669822213904000A9AFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462669832213904100A9AFD6 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
